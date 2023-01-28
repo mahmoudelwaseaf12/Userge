@@ -24,7 +24,7 @@ API_ID = environ.get("221017")
 API_HASH = secured_env("3f0b55d67e0357d426afc5dc3c27145c")
 BOT_TOKEN = secured_env("5654579119:AAGWmrRzecfC6KiYhAcaDU0DcwVAJN8OBms")
 SESSION_STRING = secured_env("AgFbEf8AfSaKM6zJBtNNawwsIFTzjdzOmgiLm2RNHePDX9FvfFjquMMf4xc_s-N0ylEptNpl-qWdc7A1Zviao9XemOJS4oFfzDokFraFKNDGimrS_S2b3fiarstYE3PBaNM7KflZSXxrYZ097EZioUtziCNgGqud11BULNEJNDyA1c8qHERYM8Y5Aum7iYBSRVERSztXPI58F-t2o1H54Tp9zblRPajsMF42teH7rRxEmBl5o3fjmqk51HstP9Hss_MVzVeLXg3xdoaT_OrjN-gxlBoigTkmNY3qlx9L_ZRkp8ZKGKoyjF6C_yPZvtt81soCSMCYB_tyUQeFd9zuDC8L2ZNIJgAAAAFEQ2ixAA")
-DB_URI = secured_env("DATABASE_URL")
+DB_URI = secured_env("mongodb+srv://hmoelwaseaf:ghZvWN9xDWkbjizg@cluster0.gqmhx8j.mongodb.net/?retryWrites=true&w=majority")
 
 OWNER_ID = tuple(filter(lambda x: x, map(int, environ.get("OWNER_ID", "5440235697").split())))
 LOG_CHANNEL_ID = int(environ.get("-1001861252300"))
